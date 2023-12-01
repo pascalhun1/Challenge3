@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Montserrat:wght@500&family=Noto+Sans+Pahawh+Hmong&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Montserrat:wght@300&family=Noto+Sans+Pahawh+Hmong&display=swap');
+*,
+::after,
+::before {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: #282828;
+  margin: 0;
+}
+main {
+  background-color: #f3eae3;
+  width: 1440px;
+  height: 800px;
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenair-right {
+  width: 298px;
+  height: 448px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 0 4px 0;
+  border-radius: 0 10px 10px 0;
+}
+
+.margin-l {
+  margin-left: 31px;
+}
+
+.h1 {
+  width: 240px;
+  line-height: 32px;
+}
+
+.h1-2 {
+  margin-bottom: 5px;
+  padding-right: 7px;
+}
+
+.del {
+  margin-left: 9px;
+  display: flex;
+  align-items: center;
+  font-size: smaller;
+  font-family: "Montserrat";
+  padding-bottom: 6px;
+  padding-right: 17px;
+  letter-spacing: 0em;
+  position: relative;
+  left: 2px;
+}
+
+.width {
+  width: 218px;
+  line-height: 22px;
+  font-size: 85%;
+}
+
+.font {
+  font-family: "Fraunces";
+  
+}
+
+.font2 {
+  font-family: "Montserrat";
+}
+
+.font-c {
+  color: #7f8190;
+}
+
+.letter-s {
+  letter-spacing: 5px;
+  font-family: "Noto Sans Pahawh Hmong";
+ font-size: small;
+}
+.price {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+  padding-left: 20px;
+}
+
+.buttom {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 236px;
+  height: 48px;
+  background-color: #3d8168;
+  border-radius: 9px;
+  margin: 0 0 17px 31px;
+  font-weight: bold;
+  font-family: "Montserrat";
+  font-size: 85%;
+  
+}
+
+img {
+  border-radius: 10px 0 0 10px;
+}
+
+.image2 {
+  margin: 0 0.0rem 0 0;
+  padding: 9px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding-right: 8px;
+}
+
+.font-f {
+  font-family: "Fraunces";
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.color {
+  color: #3d8168;
+}
+
